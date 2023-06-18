@@ -4,7 +4,7 @@ import useWallet from '@/hooks/wallets/useWallet'
 import { isSmartContractWallet } from '@/utils/wallets'
 import { Errors, logError } from '@/services/exceptions'
 import { hasEnoughSignatures } from '@/utils/transactions'
-import { type SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import { type SafeTransaction } from '@pnsdomains/safe-core-sdk-types'
 
 const useWalletCanRelay = (tx: SafeTransaction | undefined) => {
   const { safe } = useSafeInfo()

@@ -441,7 +441,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-core-sdk</TableCell>
+                <TableCell>@pnsdomains/safe-core-sdk</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md
@@ -449,7 +449,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-core-sdk-utils</TableCell>
+                <TableCell>@pnsdomains/safe-core-sdk-utils</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md
@@ -457,7 +457,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-deployments</TableCell>
+                <TableCell>@pnsdomains/safe-deployments</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-deployments/blob/main/LICENSE">
                     https://github.com/safe-global/safe-deployments/blob/main/LICENSE
@@ -465,7 +465,7 @@ const SafeLicenses = () => {
                 </TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>@safe-global/safe-ethers-lib</TableCell>
+                <TableCell>@pnsdomains/safe-ethers-lib</TableCell>
                 <TableCell>
                   <ExternalLink href="https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md">
                     https://github.com/safe-global/safe-core-sdk/blob/main/LICENSE.md

@@ -1,6 +1,6 @@
 import { hashMessage } from 'ethers/lib/utils'
 import { gte } from 'semver'
-import { adjustVInSignature } from '@safe-global/safe-core-sdk/dist/src/utils/signatures'
+import { adjustVInSignature } from '@pnsdomains/safe-core-sdk/dist/src/utils/signatures'
 import { ethers } from 'ethers'
 import type { providers, TypedDataDomain } from 'ethers'
 

@@ -1,5 +1,5 @@
 import { type ReactElement } from 'react'
-import { type SafeTransaction } from '@safe-global/safe-core-sdk-types'
+import { type SafeTransaction } from '@pnsdomains/safe-core-sdk-types'
 import SendFromBlock from '../../SendFromBlock'
 import SignOrExecuteForm from '../../SignOrExecuteForm'
 import SendToBlock from '@/components/tx/SendToBlock'

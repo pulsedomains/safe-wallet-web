@@ -7,18 +7,18 @@ import {
   getSafeSingletonDeployment,
   getSignMessageLibDeployment,
   type SingletonDeployment,
-} from '@safe-global/safe-deployments'
+} from '@pnsdomains/safe-deployments'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 import semverSatisfies from 'semver/functions/satisfies'
 import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'
 import type { ChainInfo, SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
-import type { GetContractProps, SafeVersion } from '@safe-global/safe-core-sdk-types'
+import type { GetContractProps, SafeVersion } from '@pnsdomains/safe-core-sdk-types'
 import { assertValidSafeVersion, createEthersAdapter, createReadOnlyEthersAdapter } from '@/hooks/coreSDK/safeCoreSDK'
-import type SignMessageLibEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/SignMessageLib/SignMessageLibEthersContract'
-import type CompatibilityFallbackHandlerEthersContract from '@safe-global/safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
+import type SignMessageLibEthersContract from '@pnsdomains/safe-ethers-lib/dist/src/contracts/SignMessageLib/SignMessageLibEthersContract'
+import type CompatibilityFallbackHandlerEthersContract from '@pnsdomains/safe-ethers-lib/dist/src/contracts/CompatibilityFallbackHandler/CompatibilityFallbackHandlerEthersContract'
 import type { Web3Provider } from '@ethersproject/providers'
-import type GnosisSafeContractEthers from '@safe-global/safe-ethers-lib/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
-import type EthersAdapter from '@safe-global/safe-ethers-lib'
+import type GnosisSafeContractEthers from '@pnsdomains/safe-ethers-lib/dist/src/contracts/GnosisSafe/GnosisSafeContractEthers'
+import type EthersAdapter from '@pnsdomains/safe-ethers-lib'
 
 // `UNKNOWN` is returned if the mastercopy does not match supported ones
 // @see https://github.com/safe-global/safe-client-gateway/blob/main/src/routes/safes/handlers/safes.rs#L28-L31

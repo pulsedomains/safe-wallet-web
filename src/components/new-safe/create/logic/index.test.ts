@@ -1,6 +1,6 @@
 import { JsonRpcProvider, type TransactionResponse, Web3Provider } from '@ethersproject/providers'
 import { BigNumber } from '@ethersproject/bignumber'
-import { EMPTY_DATA, ZERO_ADDRESS } from '@safe-global/safe-core-sdk/dist/src/utils/constants'
+import { EMPTY_DATA, ZERO_ADDRESS } from '@pnsdomains/safe-core-sdk/dist/src/utils/constants'
 import * as web3 from '@/hooks/wallets/web3'
 import type { TransactionReceipt } from '@ethersproject/abstract-provider'
 import {
@@ -17,7 +17,7 @@ import * as relaying from '@/services/tx/relaying'
 import {
   Gnosis_safe__factory,
   Proxy_factory__factory,
-} from '@/types/contracts/factories/@safe-global/safe-deployments/dist/assets/v1.3.0'
+} from '@/types/contracts/factories/@pnsdomains/safe-deployments/dist/assets/v1.3.0'
 import {
   getReadOnlyFallbackHandlerContract,
   getReadOnlyGnosisSafeContract,

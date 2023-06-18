@@ -1,0 +1,19 @@
+version: '3.5'
+
+services:
+  web:
+    hostname: wallet_web
+    container_name: safe_wallet_web
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "6004:8080"
+    networks:
+      - gnosis.safe
+
+networks:
+  gnosis.safe:
+    name: gnosis.safe
+    driver: bridge
+
