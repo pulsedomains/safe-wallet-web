@@ -1,7 +1,7 @@
 import { Typography } from '@mui/material'
 import type { ReactElement } from 'react'
 
-import AppStoreButton from '@/components/common/AppStoreButton'
+// import AppStoreButton from '@/components/common/AppStoreButton'
 import ExternalLink from '../ExternalLink'
 import { HelpCenterArticle } from '@/config/constants'
 
@@ -16,7 +16,7 @@ const PairingDescription = (): ReactElement => {
         </ExternalLink>
       </Typography>
 
-      <AppStoreButton placement="pairing" />
+      {/* <AppStoreButton placement="pairing" /> */}
     </>
   )
 }
